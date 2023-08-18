@@ -1,8 +1,8 @@
 import React from "react";
 
 function NameList() {
-  const names = ["captain", "IronMan", "THor", "Hulk"];
-  const nameList = names.map((item,index) => <h1 key={index}>{item}</h1>);
+  const names = ["Flash", "Wonderwomen", "Batman", "superman"];
+  const nameList = names.map((item,index) => <h5 key={index}>{item}</h5>);
   return <div>{nameList}</div>;
 }
 
