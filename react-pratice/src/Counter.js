@@ -11,7 +11,7 @@ class Counter extends Component {
 
   changeCount() {
     this.setState({
-      count: this.state.count + 1,
+      count: this.state.count + 5,
     });
   }
   render() {

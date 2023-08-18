@@ -6,7 +6,7 @@ import Counter from './Counter';
 
 function App() {
   return (
-    <div>
+    <div className="App">
        <HelloWorld greeting="Good Morning"/>
       <Greet name="Batman"/>
       <Greet name="Superman"/>
