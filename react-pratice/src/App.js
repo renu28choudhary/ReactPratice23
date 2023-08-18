@@ -6,6 +6,8 @@ import Counter from './Counter';
 import EventBindClass from './EventBindClass';
 import ParentComponent from './ParentComponent';
 import UserGreeting from './UserGreeting';
+import NameList from './NameList';
+import EmployeeList from './EmployeeList';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <EventBindClass/>
       <ParentComponent/>
       <UserGreeting/>
+      <NameList/>
+      <EmployeeList/>
     </div>
   );
 }
