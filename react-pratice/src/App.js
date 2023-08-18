@@ -5,6 +5,7 @@ import Message from './Message';
 import Counter from './Counter';
 import EventBindClass from './EventBindClass';
 import ParentComponent from './ParentComponent';
+import UserGreeting from './UserGreeting';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Counter/>
       <EventBindClass/>
       <ParentComponent/>
+      <UserGreeting/>
     </div>
   );
 }
