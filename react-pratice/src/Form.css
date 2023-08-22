@@ -1,0 +1,20 @@
+label {
+  text-align: center;
+  margin-right: 10px;
+  color:blue;
+}
+
+div {
+  margin-top: 25px;
+}
+
+button {
+  margin-top: 25px;
+}
+
+form {
+  border: 1px solid black;
+  height: 230px;
+  width: 400px;
+  margin:auto;
+}
