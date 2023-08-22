@@ -9,6 +9,8 @@ import UserGreeting from "./UserGreeting";
 import NameList from "./NameList";
 import EmployeeList from "./EmployeeList";
 import Stylesheet from "./Stylesheet";
+import Form from "./Form";
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
       <NameList />
       <EmployeeList />
       <Stylesheet primary={false} />
+      <Form/>
     </div>
   );
 }
