@@ -10,6 +10,10 @@ import NameList from "./NameList";
 import EmployeeList from "./EmployeeList";
 import Stylesheet from "./Stylesheet";
 import Form from "./Form";
+import CalForm from "./CalForm";
+import SignUpForm from "./SignUpForm";
+import NamesLIst from "./NamesLIst";
+import ShowNames from "./ShowNames";
 
 
 function App() {
@@ -27,6 +31,10 @@ function App() {
       <EmployeeList />
       <Stylesheet primary={false} />
       <Form/>
+      <CalForm/>
+      <SignUpForm/>
+      <NamesLIst/>
+      <ShowNames/>
     </div>
   );
 }

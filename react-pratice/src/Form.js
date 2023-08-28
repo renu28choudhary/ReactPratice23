@@ -36,8 +36,8 @@ class Form extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <div>
+      <form onSubmit={this.handleSubmit} className="signForm">
+        <div className="marginTop">
           <label>User Name</label>
           <input
             type="text"

@@ -1,0 +1,40 @@
+.column{
+  display:flex;
+  justify-content: center;
+}
+
+.top{
+  margin:25px;
+}
+
+.topBorder{
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+label {
+  color:black;
+}
+
+button {
+  width:65px;
+  height:25px;
+  border-radius: 4px;
+}
+
+.row {
+  display:flex;
+  margin-bottom: 25px;
+}
+
+.resultBorder{
+  border: 1px solid black;
+  height:25px;
+  width:300px;
+}
+
+.columncenter{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
