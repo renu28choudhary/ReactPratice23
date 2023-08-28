@@ -14,6 +14,7 @@ import CalForm from "./CalForm";
 import SignUpForm from "./SignUpForm";
 import NamesLIst from "./NamesLIst";
 import ShowNames from "./ShowNames";
+import CounterApp from "./apps/CounterApp";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <SignUpForm/>
       <NamesLIst/>
       <ShowNames/>
+      <CounterApp/>
     </div>
   );
 }
