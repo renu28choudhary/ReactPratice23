@@ -26,20 +26,20 @@ class ShowNames extends Component {
     });
   };
 
-  handleAddition = ()=>{
+  handleAddition = () => {
     this.setState({
-      isClicked:true,
-      names: [...skills, ...this.state.names]
-    })
-  }
+      isClicked: true,
+      names: [...skills, ...this.state.names],
+    });
+  };
 
   render() {
-    let showNamesList = skills.map((item,index) => <div key={index}>{item}</div>);
+    let showNamesList = skills
+      .map((item, index) => <div key={index}>{item}</div>);
     return (
       <div>
-        { !this.state.isClicked &&<div>{showNamesList}</div>}
-        { <div>{this.state.names}</div>
-        }
+        {!this.state.isClicked && <div>{showNamesList}</div>}
+        {<div>{this.state.names}</div>}
         <button onClick={this.handleAddition}>Add</button>
         <input
           type="text"

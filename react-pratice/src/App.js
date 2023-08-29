@@ -16,6 +16,7 @@ import NamesLIst from "./NamesLIst";
 import ShowNames from "./ShowNames";
 import CounterApp from "./apps/CounterApp";
 import TemperatureControlApp from "./apps/TemperatureControlApp";
+import SearchFilter from "./apps/SearchFilter";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       <ShowNames/>
       <CounterApp/>
       <TemperatureControlApp/>
+      <SearchFilter/>
     </div>
   );
 }
