@@ -15,6 +15,7 @@ import SignUpForm from "./SignUpForm";
 import NamesLIst from "./NamesLIst";
 import ShowNames from "./ShowNames";
 import CounterApp from "./apps/CounterApp";
+import TemperatureControlApp from "./apps/TemperatureControlApp";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       <NamesLIst/>
       <ShowNames/>
       <CounterApp/>
+      <TemperatureControlApp/>
     </div>
   );
 }
