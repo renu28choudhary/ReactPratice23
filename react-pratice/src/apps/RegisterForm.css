@@ -1,0 +1,25 @@
+.form-container {
+  display: grid;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+input {
+  margin-top: 10px;
+  background-color: lightgrey;
+  border: none;
+  padding: 5px;
+}
+
+.submitButton {
+  color: white;
+  border: 1px solid green;
+  height: 25px;
+  width: 35%;
+  background-color: green;
+}
+
+.outer-Container {
+  border: 1px solid green;
+  box-shadow: 5px 10px 5px 10px lightgray;
+}
