@@ -18,12 +18,13 @@ import CounterApp from "./apps/CounterApp";
 import TemperatureControlApp from "./apps/TemperatureControlApp";
 import SearchFilter from "./apps/SearchFilter";
 import RegisterForm from "./apps/RegisterForm";
-
+import QuizApp from "./apps/QuizApp";
+import NavBar from "./apps/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <HelloWorld greeting="Good Morning" />
+     {/* <HelloWorld greeting="Good Morning" />
       <Greet name="Batman" />
       <Greet name="Superman" />
       <Message />
@@ -34,15 +35,17 @@ function App() {
       <NameList />
       <EmployeeList />
       <Stylesheet primary={false} />
-      <Form/>
-      <CalForm/>
-      <SignUpForm/>
-      <NamesLIst/>
-      <ShowNames/>
-      <CounterApp/>
-      <TemperatureControlApp/>
-      <SearchFilter/>
-      <RegisterForm/>
+      <Form />
+      <CalForm />
+      <SignUpForm />
+      <NamesLIst />
+      <ShowNames />
+      <CounterApp />
+      <TemperatureControlApp />
+      <SearchFilter />
+      <RegisterForm />
+  <QuizApp />*/}
+  <NavBar/>
     </div>
   );
 }
